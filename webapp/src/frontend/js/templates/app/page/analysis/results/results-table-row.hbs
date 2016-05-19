@@ -1,0 +1,17 @@
+<tr>
+    <td>{{ score }}</td>
+    <td>{{ npsType }}</td>
+    <td>
+        {{#if isTopic}}
+            {{ content }}
+        {{else}}
+            {{ selectedCluster }}
+        {{/if}}
+    </td>
+    <td>{{ sentimentText }}</td>
+    <td>
+        <div class="{{#compare answer.length '>' 80 }}answer-truncate{{/compare}}">
+            {{ answer }}
+        </div>
+    </td>
+</tr>

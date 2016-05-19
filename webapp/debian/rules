@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+# -*- makefule -*-
+
+export DH_OPTIONS
+
+build:
+	cd src && npm install
+
+%:
+	dh $@
+

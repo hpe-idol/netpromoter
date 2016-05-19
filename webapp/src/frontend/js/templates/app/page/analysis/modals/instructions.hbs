@@ -1,0 +1,40 @@
+<div class="modal" id="uploadInfo" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h2>File format guidelines</h2>
+                <p>At this time, the following restrictions are placed on the file containing your survey data:</p>
+                <ul>
+                    <li><strong>.csv</strong>, <strong>.xls</strong> or <strong>.xlsx</strong> format</li>
+                    <li>No greater than <strong>10MB</strong> in size</li>
+                    <li>Your survey data should be contained in the first worksheet of the file (if applicable).</li>
+                    <li>The first line/row of your file or worksheet must contain the headers of your data</li>
+                    <li>
+                        Each subsequent line of data must conform to the following:
+                        <ul>
+                            <li>The Net Promoter Score should be in a column named <strong>"NPS"</strong></li>
+                            <li>The response to the <i>why</i> question should be in a column named <strong>"Why"</strong></li>
+                            <li>The response to the <i>what should we improve</i> question should be in a column named <strong>"Improve"</strong></li>
+                            <li>Any other items may contain additional metadata</li>
+                        </ul>
+                    </li>
+                </ul>
+                <hr>
+                <h2>Notes on the .csv file format</h2>
+                <p><strong>Please note: due to certain limitations with the .csv file format we recommend you use either the .xls or .xlsx file format to upload your surveys.</strong></p>
+                <p>It is common to convert to the .csv file format from .xls or .xlsx.  Using Microsoft Excel to do so is simple:</p>
+                <ol>
+                    <li>Open your file in Microsoft Excel</li>
+                    <li>Make sure your data adheres to the above guidelines</li>
+                    <li>Go to File -> Save As</li>
+                    <li>In the save dialog choose <i><strong>CSV (Comma Delimited)</strong></i> from the <i>Save as type</i> option</li>
+                </ol>
+                <p>
+                <p>
+                    Please note that if any of your data begins with a mathematical operator (e.g. "+") then saving to .csv format may cause that data to be lost.
+                    In order to avoid this, either <strong>remove mathematical operators</strong> from the start of your data or <strong>add quotes surrounding your data</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

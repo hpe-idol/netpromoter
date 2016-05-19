@@ -1,0 +1,9 @@
+{
+  "statusMessages": [
+    {
+      "id": 1,
+      "messageHtml": "Thank you for using HPE NPS Analytics!  <br><br>We wanted to inform you that we have recently enhanced the NPS analysis process. To take advantage of this improved analysis process, please re-create the index and re-upload your dataset below.  <br><br>If you do not have the required quota, you can safely delete any old NPS indexes at <a class='alert-link' target='_blank' href='https://www.havenondemand.com/account/text-indexes.html'>havenondemand.com/account/text-indexes</a>.  Once you have at least 12 resource units available, you should create a new index using the button below.",
+      "expiry": "1461974400000"
+    }
+  ]
+}

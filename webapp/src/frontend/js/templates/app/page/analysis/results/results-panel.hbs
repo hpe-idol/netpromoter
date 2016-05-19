@@ -1,0 +1,50 @@
+<div class="hpebox">
+    <div class="hpebox-title">
+        <h3 class="metric-light">3. Analyse survey topics</h3>
+    </div>
+    <div class="hpebox-content">
+        <div class="parametric-container">
+            <div class="col-sm-4">
+                <div class="radio i-check">
+                    <label>
+                        <input type="radio" checked value="recommend" name="question">
+                        Why?
+                    </label>
+                </div>
+                <div class="radio i-check m-b-md">
+                    <label>
+                        <input type="radio" value="improve"  name="question">
+                        What should we improve?
+                    </label>
+                </div>
+                <div class="checkbox i-check">
+                    <label>
+                        <input class="js-exclude-single" type="checkbox" checked>
+                        Exclude single word topics
+                    </label>
+                </div>
+            </div>
+            <div class="col-sm-8 m-t-sm">
+                <div class="col-sm-5">
+                    <select class="js-parametric-nps form-control" name="">
+                        <option value="all">All Score Categories</option>
+                        <option value="promoter">Promoters</option>
+                        <option value="passive">Passive</option>
+                        <option value="detractor">Detractors</option>
+                    </select>
+                </div>
+                <div class="col-sm-5">
+                    <select class="js-parametric-sentiment form-control" name="">
+                        <option value="all">All Sentiments</option>
+                        <option value="positive">Positive Only</option>
+                        <option value="negative">Negative Only</option>
+                        <option value="either">Positive or Negative</option>
+                    </select>
+                </div>
+                <button class="js-run-analysis btn btn-primary">Run</button>
+            </div>
+        </div>
+        <div class="js-results-chart"></div>
+        <div class="js-results-table"></div>
+    </div>
+</div>

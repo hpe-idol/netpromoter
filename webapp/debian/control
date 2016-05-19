@@ -1,0 +1,12 @@
+Source: netpromoter
+Section: unknown
+Priority: optional
+Maintainer: Jonathan Soul <jonathan.soul@hpe.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://netpromoter.havenondemand.com
+
+Package: netpromoter
+Architecture: any
+Depends: ${misc:Depends}
+Description: Nodejs (express) web application for analysing Net Promoter Score survey responses.

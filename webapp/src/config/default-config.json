@@ -1,0 +1,56 @@
+{
+    "redis": {
+        "host": "localhost",
+        "port": 6379,
+        "sentinels": [
+            {
+                "host": "",
+                "port": 26379
+            }
+        ],
+        "master": ""
+    },
+    "sessions": {
+        "secret": "thisShouldReallyBeOverridden",
+        "cookie": {
+            "key": "connect.sid",
+            "max_age": 28800000,
+            "secure": false
+        },
+        "ttl": 28800
+    },
+    "logging": {
+        "streams": {
+            "info": false,
+            "error": false
+        },
+        "echo": false,
+        "dir": "../../logs"
+    },
+    "server": {
+        "allowed_origins": [
+            "http(s)://<host>:<port>"
+        ],
+        "public_dir": "/frontend/",
+        "port": 8080
+    },
+    "havenondemand": {
+        "protocol": "https",
+        "host": "havenondemand.com",
+        "api_host": "api.havenondemand.com",
+        "sso_page": "https://www.havenondemand.com/sso.html",
+        "apikey": "",
+        "requests": {
+            "jobStatus": {
+                "retries": 60,
+                "retryWaitMs": 2000
+            }
+        }
+    },
+    "apiQueue": {
+        "length": 15
+    },
+    "parsing": {
+        "excel_max_rows": 1000000
+    }
+}

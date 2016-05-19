@@ -1,0 +1,23 @@
+netpromoter (2.5.1) unstable; urgency=low
+
+  * Add xls, xlsx file parsing capability
+
+ -- Jonathan Soul <jonathan.soul@hpe.com>  Wed, 27 Apr 2016 09:22:00 +0000
+
+netpromoter (2.5.0-1) unstable; urgency=low
+
+  * Hotfix - amend temporary message for more explicit wording
+
+ -- Jonathan Soul <jonathan.soul@hpe.com>  Fri, 22 Apr 2016 11:25:00 +0000
+
+netpromoter (2.5.0) unstable; urgency=low
+
+  * New analysis process, separating library packages out 
+
+ -- Jonathan Soul <jonathan.soul@hpe.com>  Mon, 18 Apr 2016 10:42:29 +0000
+
+netpromoter (2.3.1) unstable; urgency=low
+
+  * Introduce .deb packaging
+
+ -- Jonathan Soul <jonathan.soul@hpe.com>  Tues, 16 Feb 2015 11:04:18 +0000
