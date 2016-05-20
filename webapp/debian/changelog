@@ -1,3 +1,9 @@
+netpromoter (2.5.2) unstable; urgency=low
+
+  * Refactor frontend to support backbone, fixes
+
+ -- Jonathan Soul <jonathan.soul@hpe.com>  Fri, 20 May 2016 09:32:00 +0000
+
 netpromoter (2.5.1) unstable; urgency=low
 
   * Add xls, xlsx file parsing capability
